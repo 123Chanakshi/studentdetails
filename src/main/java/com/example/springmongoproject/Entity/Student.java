@@ -1,9 +1,9 @@
-package com.example.SpringMongoProject.Entity;
+package com.example.springmongoproject.Entity;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection ="students")
+@Document(collection ="student")
 public class Student {
 
     @Id
